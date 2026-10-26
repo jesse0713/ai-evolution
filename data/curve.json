@@ -1,1 +1,212 @@
-[]
+[
+  {
+    "gen": 1,
+    "fitness": 102.4,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 2,
+    "fitness": 841.3,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 3,
+    "fitness": 275.1,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 4,
+    "fitness": 439.2,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 5,
+    "fitness": 659.3,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 6,
+    "fitness": 155.8,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 7,
+    "fitness": 363.6,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 8,
+    "fitness": 323.3,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 9,
+    "fitness": 917.3,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 10,
+    "fitness": 1010.7,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 11,
+    "fitness": 184.1,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 12,
+    "fitness": 1471.5,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 13,
+    "fitness": 688.7,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 14,
+    "fitness": 773.6,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 15,
+    "fitness": 1436.7,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 16,
+    "fitness": 537.5,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 17,
+    "fitness": 500.1,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 18,
+    "fitness": 378.8,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 19,
+    "fitness": 937.9,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 20,
+    "fitness": 5725.5,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 21,
+    "fitness": 1589.6,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 22,
+    "fitness": 1053.7,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 23,
+    "fitness": 538.8,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 24,
+    "fitness": 2467.9,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 25,
+    "fitness": 6559.7,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 26,
+    "fitness": 338.4,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 27,
+    "fitness": 954.4,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 28,
+    "fitness": 393.6,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 29,
+    "fitness": 627.2,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  },
+  {
+    "gen": 30,
+    "fitness": 403.8,
+    "tag": "day1",
+    "day": 1,
+    "show_preview": true
+  }
+]

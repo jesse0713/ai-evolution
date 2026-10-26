@@ -118,13 +118,13 @@
 </div>
 
 <footer>
-  <div>本页面由项目脚本自动生成 · 更新于 2026-10-26 21:18</div>
+  <div>本页面由项目脚本自动生成 · 更新于 2026-10-27 00:39</div>
   <div>原始数据采用固定种子评估，代际之间可比、可复现。</div>
 </footer>
 </div>
 
 <script>
-const DATA = {"curve": [], "daily": [], "total_generations": 0, "total_days": 0, "best_fitness": 0, "symbol_rate": 0, "generated_at": "2026-10-26 21:18", "files": []};
+const DATA = {"curve": [{"gen": 1, "fitness": 102.4, "day": 1, "show_preview": true}, {"gen": 2, "fitness": 841.3, "day": 1, "show_preview": true}, {"gen": 3, "fitness": 275.1, "day": 1, "show_preview": true}, {"gen": 4, "fitness": 439.2, "day": 1, "show_preview": true}, {"gen": 5, "fitness": 659.3, "day": 1, "show_preview": true}, {"gen": 6, "fitness": 155.8, "day": 1, "show_preview": true}, {"gen": 7, "fitness": 363.6, "day": 1, "show_preview": true}, {"gen": 8, "fitness": 323.3, "day": 1, "show_preview": true}, {"gen": 9, "fitness": 917.3, "day": 1, "show_preview": true}, {"gen": 10, "fitness": 1010.7, "day": 1, "show_preview": true}, {"gen": 11, "fitness": 184.1, "day": 1, "show_preview": true}, {"gen": 12, "fitness": 1471.5, "day": 1, "show_preview": true}, {"gen": 13, "fitness": 688.7, "day": 1, "show_preview": true}, {"gen": 14, "fitness": 773.6, "day": 1, "show_preview": true}, {"gen": 15, "fitness": 1436.7, "day": 1, "show_preview": true}, {"gen": 16, "fitness": 537.5, "day": 1, "show_preview": true}, {"gen": 17, "fitness": 500.1, "day": 1, "show_preview": true}, {"gen": 18, "fitness": 378.8, "day": 1, "show_preview": true}, {"gen": 19, "fitness": 937.9, "day": 1, "show_preview": true}, {"gen": 20, "fitness": 5725.5, "day": 1, "show_preview": true}, {"gen": 21, "fitness": 1589.6, "day": 1, "show_preview": true}, {"gen": 22, "fitness": 1053.7, "day": 1, "show_preview": true}, {"gen": 23, "fitness": 538.8, "day": 1, "show_preview": true}, {"gen": 24, "fitness": 2467.9, "day": 1, "show_preview": true}, {"gen": 25, "fitness": 6559.7, "day": 1, "show_preview": true}, {"gen": 26, "fitness": 338.4, "day": 1, "show_preview": true}, {"gen": 27, "fitness": 954.4, "day": 1, "show_preview": true}, {"gen": 28, "fitness": 393.6, "day": 1, "show_preview": true}, {"gen": 29, "fitness": 627.2, "day": 1, "show_preview": true}, {"gen": 30, "fitness": 403.8, "day": 1, "show_preview": true}], "daily": [{"day": 1, "gen": 30, "fitness": 6559.7, "file": "gen_00030_day1.json", "weights": [-11.212019931578315, -7.646697233444744, -24.86606231049433, -19.955537512279328, -26.29331306416786, -3.1144502824182463, -20.559680054146252, -11.493647778656014, 7.094203036937296], "sigma": 27.232605662506764, "show_preview": true, "games": 10}], "total_generations": 30, "total_days": 1, "best_fitness": 6559.7, "eval_games": 10, "games_mixed": false, "game_counts": {"10": 1}, "symbol_rate": 83, "generated_at": "2026-10-27 00:39", "files": [{"path": "data/logs/train_day1.jsonl", "size": 116428}, {"path": "data/weights/gen_00030_day1.json", "size": 789}]};
 
 // ── 顶部统计 ──
 (function(){
@@ -133,6 +133,7 @@ const DATA = {"curve": [], "daily": [], "total_generations": 0, "total_days": 0,
     ['已训练天数', DATA.total_days],
     ['累计代数', DATA.total_generations],
     ['最好成绩', DATA.best_fitness ? Math.round(DATA.best_fitness) : '—'],
+    ['每代评估局数', DATA.eval_games ? DATA.eval_games + ' 局' : '—'],
     ['权重方向一致率', DATA.symbol_rate ? DATA.symbol_rate + '%' : '—'],
   ];
   s.innerHTML = items.map(([k,v]) =>
@@ -206,11 +207,12 @@ const DATA = {"curve": [], "daily": [], "total_generations": 0, "total_days": 0,
   }
   const LBL = [["landing_height", "落点高度", "越低越好"], ["rows_cleared", "消行数", "越多越好"], ["row_transitions", "行边界数", "越少越好"], ["column_transitions", "列边界数", "越少越好"], ["holes", "空洞数", "越少越好"], ["cumulative_wells", "深井平方和", "越少越好"], ["hole_depth", "空洞深度", "越少越好"], ["rows_with_holes", "带洞行数", "越少越好"], ["pattern_diversity", "图案多样性", "越多越好"]];
   const BASE = [-0.335105, 0.1905147, -0.2435687, -0.6617281, -0.5285897, -0.2576421];
-  let html = '<table class="wt"><thead><tr><th class="day">天</th><th class="num">代数</th><th class="num">成绩</th><th>预告</th>';
+  let html = '<table class="wt"><thead><tr><th class="day">天</th><th class="num">代数</th><th class="num">成绩</th><th>评估</th><th>预告</th>';
   LBL.forEach(l=>{ html += `<th title="${l[0]}｜${l[2]}">${l[1]}<small>${l[2]}</small></th>`; });
   html += '</tr></thead><tbody>';
   DATA.daily.forEach(d=>{
     html += `<tr><td class="day">第 ${d.day} 天</td><td class="num">${d.gen}</td><td class="num">${Math.round(d.fitness)}</td>`;
+    html += `<td class="num">${d.games ? d.games + ' 局' : '—'}</td>`;
     html += `<td><span class="tag ${d.show_preview?'on':'off'}">${d.show_preview?'开':'关'}</span></td>`;
     LBL.forEach((l,i)=>{
       const w = d.weights[i];
@@ -234,6 +236,13 @@ const DATA = {"curve": [], "daily": [], "total_generations": 0, "total_days": 0,
   html += '</tbody></table>';
   html += `<p style="font-size:12.5px;color:#8b93a3;margin:14px 0 0">
     条形图以该行最大权重为满格，向右为正、向左为负。✓ 表示这一维的最优方向与已发表的专家手调基线一致（仅比较方向，量纲不同）。</p>`;
+  if (DATA.games_mixed) {
+    const counts = Object.entries(DATA.game_counts).map(([k,v]) => `${k} 局 × ${v} 天`).join('、');
+    html += `<p style="font-size:12.5px;color:#ffb36f;margin:8px 0 0">
+      ⚠ 各天评估局数不同（${counts}）。局数越少分数噪声越大，
+      所以这些天的成绩**不能直接横向比较**——只能看趋势。
+      局数已如实记录在「评估」列与权重文件里。</p>`;
+  }
   wrap.innerHTML = html;
 })();
 
