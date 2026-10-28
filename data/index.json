@@ -1,7 +1,7 @@
 {
   "project": "AI 自主训练方块实验（完全自研）",
-  "days": 2,
-  "total_generations": 60,
+  "days": 3,
+  "total_generations": 87,
   "timeline": [
     {
       "day": 1,
@@ -22,8 +22,18 @@
       "best_fitness": 7997.8,
       "show_preview": true,
       "log": "data/logs/train_day2.jsonl"
+    },
+    {
+      "day": 3,
+      "tag": "day3",
+      "gen_start": 61,
+      "gen_end": 87,
+      "generations": 27,
+      "best_fitness": 398.7,
+      "show_preview": true,
+      "log": "data/logs/train_day3.jsonl"
     }
   ],
   "note": "本仓库公开的是 AI 训练过程的原始证据：每一代的权重与成绩。游戏场地、计分与重力曲线均为自研规则，与任何商业版本不可比，因此这些数字只在本项目内部有意义，不代表任何外部纪录。",
-  "generated_at": "2026-10-28T05:01:49"
+  "generated_at": "2026-10-29T01:19:28"
 }
