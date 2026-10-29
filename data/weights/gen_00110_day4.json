@@ -1,0 +1,41 @@
+{
+  "generation": 110,
+  "fitness": 408.8,
+  "fitness_mean_games": 10,
+  "fitness_mode": "lines",
+  "show_preview": true,
+  "seed_base": 20260101,
+  "feature_names": [
+    "landing_height",
+    "rows_cleared",
+    "row_transitions",
+    "column_transitions",
+    "holes",
+    "cumulative_wells",
+    "hole_depth",
+    "rows_with_holes",
+    "pattern_diversity"
+  ],
+  "weights": [
+    -11.649703175414025,
+    -6.776047596462461,
+    -26.449102899317744,
+    -16.097675016576297,
+    -29.714585414859513,
+    0.6769553300497396,
+    -13.343972178830182,
+    -17.733493183897608,
+    12.567714598245846
+  ],
+  "saved_at": "2026-10-29T08:34:02",
+  "tag": "day4",
+  "total_generations": 23,
+  "generations_run": 23,
+  "stopped_early": false,
+  "elapsed_total_sec": 2430.4,
+  "time_budget_sec": 2700.0,
+  "max_steps": 1025,
+  "final_sigma": 0.45819714217056096,
+  "gen_offset": 87,
+  "day": 4
+}

@@ -607,5 +607,166 @@
     "tag": "day3",
     "day": 3,
     "show_preview": true
+  },
+  {
+    "gen": 88,
+    "fitness": 408.5,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 89,
+    "fitness": 408.4,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 90,
+    "fitness": 408.6,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 91,
+    "fitness": 408.4,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 92,
+    "fitness": 408.6,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 93,
+    "fitness": 408.1,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 94,
+    "fitness": 408.5,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 95,
+    "fitness": 408.3,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 96,
+    "fitness": 408.5,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 97,
+    "fitness": 408.5,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 98,
+    "fitness": 408.4,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 99,
+    "fitness": 408.2,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 100,
+    "fitness": 408.4,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 101,
+    "fitness": 408.5,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 102,
+    "fitness": 408.4,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 103,
+    "fitness": 408.3,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 104,
+    "fitness": 408.8,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 105,
+    "fitness": 408.3,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 106,
+    "fitness": 408.6,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 107,
+    "fitness": 408.4,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 108,
+    "fitness": 408.6,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 109,
+    "fitness": 408.5,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
+  },
+  {
+    "gen": 110,
+    "fitness": 408.4,
+    "tag": "day4",
+    "day": 4,
+    "show_preview": true
   }
 ]

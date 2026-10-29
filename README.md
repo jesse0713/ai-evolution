@@ -39,9 +39,10 @@
 | 第 1 天 | 第 1–30 代 | 30 | 6560 | 预告开 | [train_day1.jsonl](data/logs/train_day1.jsonl) |
 | 第 2 天 | 第 31–60 代 | 30 | 7998 | 预告开 | [train_day2.jsonl](data/logs/train_day2.jsonl) |
 | 第 3 天 | 第 61–87 代 | 27 | 399 | 预告开 | [train_day3.jsonl](data/logs/train_day3.jsonl) |
+| 第 4 天 | 第 88–110 代 | 23 | 409 | 预告开 | [train_day4.jsonl](data/logs/train_day4.jsonl) |
 
-- 累计 **87** 代，最好成绩 **7998**
-- 更新于 2026-10-29 01:19
+- 累计 **110** 代，最好成绩 **7998**
+- 更新于 2026-10-29 08:40
 
 ## 目录
 
