@@ -2,7 +2,7 @@
 
 一个 AI 自己学会叠方块。每晚训练、每晚直播，这个仓库保存它**每一代的原始记录**。
 
-📊 **在线查看**：<https://YOUR_USER.github.io/YOUR_REPO/> （GitHub Pages，仓库设置里开启）
+📊 **在线查看**：<https://jesse0713.github.io/YOUR_REPO/> （GitHub Pages，仓库设置里开启）
 
 ## 这是什么
 
